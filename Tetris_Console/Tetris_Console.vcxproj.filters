@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mino">
+      <UniqueIdentifier>{4cf781a1-c820-4718-b24a-0b1569b98032}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ConsoleTool.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Mino.h" />
+    <ClInclude Include="Zmino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Tmino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Smino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Omino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Lmino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Jmino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+    <ClInclude Include="Imino.h">
+      <Filter>Mino</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ConsoleTool.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Mino.cpp" />
+    <ClCompile Include="Zmino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Tmino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Smino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Omino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Lmino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Jmino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+    <ClCompile Include="Imino.cpp">
+      <Filter>Mino</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
